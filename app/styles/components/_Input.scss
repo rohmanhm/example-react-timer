@@ -1,0 +1,16 @@
+.in-default {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    &[disabled] {
+	    background-color: rgba(33, 33, 33, 0.29);
+	    cursor: no-drop;
+	    color: #7f7f7f;
+	}
+}

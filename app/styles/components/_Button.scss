@@ -1,0 +1,23 @@
+.bt-default {
+	width: 48%;
+	color: #fff;
+	float: left;
+	border: 1px solid transparent;
+	font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bt-start, .bt-pause {
+	margin-right: 2%;
+}
+.bt-start {
+	background-color: #019875;
+}
+.bt-pause {
+	background-color: #4183D7;
+}
+.bt-stop {
+	background-color: #EF4836;
+}

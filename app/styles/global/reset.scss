@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.49;
+	font-family: $font-primary;
+	background-color: $body-bg-color;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	// For full control tag a
+	&.fl {
+		&:after {
+			position: absolute;
+			content: "";
+			display: block;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+		}
+	}
+}
+
+.bt-default {
+	border: 0;
+	height: 50px;
+	min-width: 100px;
+}
+
+.container {
+	width: $container-width;
+	margin: 0 auto;
+	max-width: 95%;
+}
+
+.clear {
+	content:"";
+	position: relative;
+	clear: both;
+	display: table;
+}
