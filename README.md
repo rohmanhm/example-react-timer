@@ -1,5 +1,7 @@
 #Example ReactJS Timer Application
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rohmanhm/example-react-timer.svg)](https://greenkeeper.io/)
+
 ##How to run?
 Install npm modules.
 `npm install`
